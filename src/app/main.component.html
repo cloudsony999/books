@@ -1,0 +1,18 @@
+
+<div style="text-align: center;" class="banner">Books API Development</div>
+<div style="text-align: center;" class="menubar"> 
+      <a  [routerLink]="['/home']" style="text-align: center">Home</a>
+      &nbsp;
+      <a  [routerLink]="['/add']" style="text-align: center">Add Book</a>
+      &nbsp;
+      <input type="text" #title placeholder="Title">
+      <button (click)="search(title.value)">Search any book</button>
+</div>
+
+
+
+<router-outlet></router-outlet>
+
+<hr>
+<b>@Amitava Chatterjee</b>
+<hr>
